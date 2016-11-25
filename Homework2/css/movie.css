@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/background.png);
+	font-size: 8pt;
+	font-family: verdana,tahoma,sans-serif;
+	
+}
+
+#banner{
+	margin: auto;
+	background-image: url(../img/bannerbackground.png);
+}
+
+h1{
+	text-align: center;
+	font: tahoma,verdana,sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+#content{
+	border: 4px solid gray;
+	width: 800px;
+	margin: 0 auto;
+	height: auto;
+
+}
+
+#reviews{
+	width: 550px;
+	float: left;
+}
+
+#comments{
+	
+}
+
+#overview{
+	float: right;
+	width:250px;
+	background-color:  #A2B964;
+}
+
+
+#rotten{
+	background-image: url(../img/rottenbackground.png);
+	background-repeat: repeat-x;
+	height: 83px;
+}
+
+#rateInfo{
+	display: inline-block;
+	vertical-align: 50%;
+	color: white;
+}
+
+#rateInfo span{
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+
+#left{
+	float: left;
+	width: 47%;
+	padding-left: 2%;
+}
+
+#right{
+	float: right;
+	width: 47%;
+	padding-right: 2%;
+}
+
+.areview{
+	margin-bottom: 3em;	
+}
+
+.review{
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #E1D697;
+	border-width: 2px;
+	border-color: grey;
+	border-style: solid;
+	padding: 8px;
+}
+
+#comments img{
+	margin-right: 5px;
+	float: left;
+}
+
+.reviewer{
+	font-style: italic;
+}
+
+#information{
+	padding: 10px;
+	background-color:  #A2B964;
+	font-size: 8pt;
+	font-family: arial,sans-serif;
+}
+
+#information dl{
+	font-weight: bold;
+	padding-top: 1em;
+}
+
+.clear{
+		clear: both;
+}
+
+#bottom{
+	background-color:  #A2B964;
+	text-align: center;
+	padding: 2.5px  0;
+}
+
+#w3c{
+	position: fixed;
+	right: 2px;
+	bottom: 1px;
+}

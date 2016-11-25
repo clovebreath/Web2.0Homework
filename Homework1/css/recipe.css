@@ -1,0 +1,38 @@
+body{
+	width: 1024px;
+	margin: auto;
+	background-image: url(../img/silverware.jpg) ;
+	background-attachment: fixed;
+	color: #404040;
+	font-size: 11pt;
+	font-family: georgia,garamond,serif;
+}
+
+h1,h2{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-size: 18pt;
+	font-weight: normal;
+	font-family: "century gothic",futura,verdana,sans-serif;
+	text-decoration: underline;
+	letter-spacing: 0.2em;
+}
+
+h1{
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+a{
+	color: rgb(164,164,0);
+}
+
+.comment{
+	font-style: italic;
+	background: #FFFFC8;
+}
+
+ul{
+	list-style-image: url(../img/pie_icon.gif);
+}
