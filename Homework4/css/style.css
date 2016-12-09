@@ -1,0 +1,162 @@
+body{
+	text-align: center;
+}
+
+h1{
+	height: 10%;
+	color: gray;
+	margin: 0px;
+	padding: 10px;
+}
+
+#container{
+	width: 250px;
+	height: 400px;
+	margin: 0 auto;	
+	border: 2px solid gray;
+}
+
+#expression{
+	height: 15%;
+}
+
+#expressionArea{
+	font-weight: bold;
+	width: 90%;
+	height: 50%;
+	resize: none;
+}
+
+#errorMessage{
+	width: 97%;
+	height: 50%;
+	text-align: right;
+	color: red;
+	font-weight: bold;
+}
+
+#button{
+	height: 70%;
+	position: relative;
+}
+
+#button button{
+	height: 14%;
+	width: 20%;
+}
+
+#btnZero{
+	position: absolute;
+	left: 4%;
+	top:62%;	
+}
+#btnOne{
+	position: absolute;
+	left: 4%;
+	top:43%;	
+}
+#btnTwo{
+	position: absolute;
+	left: 28%;
+	top:43%;	
+}
+#btnThree{
+	position: absolute;
+	left: 52%;
+	top:43%;	
+}
+#btnFour{
+	position: absolute;
+	left: 4%;
+	top:24%;	
+}
+
+#btnFive{
+	position: absolute;
+	left: 28%;
+	top: 24%;
+}
+
+#btnSix{
+	position: absolute;
+	left: 52%;
+	top: 24%;
+}
+
+#btnSeven{
+	position: absolute;
+	left: 4%;
+	top: 5%;
+}
+
+#btnEight{
+	position: absolute;
+	left: 28%;
+	top:5%;
+}
+
+#btnNine{
+	position: absolute;
+	top:5%;
+	left:52%;
+}
+
+#btnDivi{
+	position: absolute;
+	top:5%;
+	left:76%;
+}
+
+#btnMult{
+	position: absolute;
+	top: 24%;
+	left: 76%;
+}
+
+#btnMinus{
+	position: absolute;
+	top:43%;
+	left: 76%;
+}
+
+#btnAdd{
+	position: absolute;
+	top:62%;
+	left: 76%;
+}
+
+#btnPoint{
+	position: absolute;
+	top: 62%;
+	left: 28%;
+}
+
+#btnDel{
+	position: absolute;
+	top: 62%;
+	left: 52%;
+}
+
+#btnLefBracket{
+	position: absolute;
+	left: 4%;
+	top: 81%;
+}
+
+#btnRightBracket{
+	position: absolute;
+	left: 28%;
+	top: 81%;
+}
+
+#btnCle{
+	position: absolute;
+	left: 52%;
+	top: 81%;
+}
+
+#btnEqual{
+	position: absolute;
+	top: 81%;
+	left: 76%;
+}

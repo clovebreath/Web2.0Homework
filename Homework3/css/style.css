@@ -1,0 +1,8 @@
+body{
+	margin: 0 auto;
+}
+
+.apb img{
+	background-color: rgba(48, 63, 159, 1);
+	border-radius: 5px;
+}

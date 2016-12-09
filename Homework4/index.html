@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/default.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>简单计算器</h1>
+			<div id="expression">
+				<textarea id="expressionArea" readonly="true"></textarea>
+				<div id="errorMessage"></div>
+			</div>
+			<div id="button">
+				<button id="btnZero" onclick="getValue(this)" value="0">0</button>
+				<button id="btnOne" onclick="getValue(this)" value="1">1</button>
+				<button id="btnTwo" onclick="getValue(this)" value="2">2</button>
+				<button id="btnThree" onclick="getValue(this)" value="3">3</button>
+				<button id="btnFour" onclick="getValue(this)" value="4">4</button>
+				<button id="btnFive" onclick="getValue(this)" value="5">5</button>
+				<button id="btnSix" onclick="getValue(this)" value="6">6</button>
+				<button id="btnSeven" onclick="getValue(this)" value="7">7</button>
+				<button id="btnEight" onclick="getValue(this)" value="8">8</button>
+				<button id="btnNine" onclick="getValue(this)" value="9">9</button>
+				<button id="btnAdd" onclick="getValue(this)" value="+">+</button>
+				<button id="btnMinus" onclick="getValue(this)" value="-">-</button>
+				<button id="btnMult" onclick="getValue(this)" value="*">*</button>
+				<button id="btnDivi" onclick="getValue(this)" value="/">/</button>
+				<button id="btnLefBracket" onclick="getValue(this)" value="(">(</button>
+				<button id="btnRightBracket" onclick="getValue(this)" value=")">)</button>
+				<button id="btnPoint" onclick="getValue(this)" value=".">.</button>
+
+				<button id="btnEqual" onclick="showResult(this)" value="=">=</button>		
+				<button id="btnDel" onclick="backSpace()" value="0">←</button>
+				<button id="btnCle" onclick="clearAll()" value="0">CE</button>
+
+			</div>
+		</div>
+	</body>
+</html>
